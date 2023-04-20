@@ -32,7 +32,7 @@ def find_middle(lst):
     for p in range(len(lst)):
         k += lst[p].get_freq()
         if k == s: return p
-        elif k > s:
+        elif k > s: 
             j = len(lst)-1
             while b < s:
                 b += lst[j].get_freq()
